@@ -1,7 +1,8 @@
 <?php
 require_once __DIR__ . "../../../config/config.php";
 
-function validateAndSanitizeInput($email, $password) {
+function validateAndSanitizeInput($email, $password)
+{
     $errors = [];
 
     // 1. Validate email
@@ -55,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             $stmt->bind_param("ssss", $username, $hashed_password, $email, $user_type);
             if ($stmt->execute()) {
                 $_SESSION["success_msg"] = "Registration successful!";
-                header("Location: success_page.php");
+                //header("Location: success_page.php"); TODO - redirect to login
                 exit();
             } else {
                 $_SESSION["error_msg"] = "Registration failed. Please try again later.";
@@ -67,15 +68,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         // Close the database connection
         $mysqli->close();
-        header("Location: register.html");
+        //header("Location: register.html");
         exit();
     } else {
         echo json_encode(["errors" => $errors]);
-       
     }
 } else {
     // If someone tries to access this script without POST data, redirect to the registration form
     header("Location: register.html");
     exit();
 }
-?>
