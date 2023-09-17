@@ -1,0 +1,1089 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: #A020F0;
+}
+
+#hero .hero-img img {
+	margin-top: 0;
+	width: 80%;
+}
+
+#hero .container {
+  padding-top: 84px;
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+#hero .btn-get-started {
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  transition: 0.5s;
+  margin-top: 80px;
+  color: #A020F0;
+  background: #fff;
+  text-transform: uppercase;
+}
+
+
+#wrapper {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.index h1 {
+	font: 300 36px/36px 'Roboto', sans-serif;
+	color: #fff;
+	margin: 0;
+}
+.index h2 {
+	font: 500 30px/30px 'Roboto', sans-serif;
+	color: #222;
+	margin: 0 0 25px 0;
+}
+.index h2 a {
+	text-decoration: none;
+	color: #222;
+}
+.index h4 {
+	font: 500 18px/18px 'Roboto', sans-serif;
+	color: #222;
+	margin: 0;
+}
+.index h4 a {
+	text-decoration: none;
+	color: #222;
+}
+.index p {
+	font: 400 14px/22px 'Roboto', sans-serif;
+	color: #888;
+	margin: 0 0 20px 0;
+}
+#header {
+	float: left;
+	width: 100%;
+	padding: 18px 0 0 0;
+	background-color: #fff;
+}
+.navigation-col {
+	float: left;
+	width: 100%;
+}
+.navigation-col .navbar-collapse {
+	padding: 0;
+	float: right;
+}
+.index #header.header-3 .navigation-col {
+	width: 100%;
+	float: left;
+}
+.navigation-col .navbar-inverse .navbar-collapse, .navigation-col .navbar-inverse .navbar-form {
+	border-color: transparent;
+}
+.navigation-col .navbar-inverse {
+	background: none;
+	border-color: transparent;
+}
+.navigation-col .navbar {
+	margin: 0;
+	min-height: inherit;
+}
+/* Menu CSS Start */
+
+#nav {
+	padding: 14px 0 0 0;
+	margin: 0 auto;
+	list-style: none;
+	float: left;
+}
+#nav li {
+	float: left;
+	padding: 0 0 25px 38px;
+	position: relative;
+}
+#nav li a {
+	font: 400 15px/15px 'Roboto', sans-serif;
+	color: #222;
+	text-decoration: none;
+	padding: 8px 0 8px 0;
+	display: block;
+	position: relative;
+	z-index: 20;
+}
+#nav li a .fa {
+	float: right;
+	color: #000;
+	padding: 0 20px 0 0;
+}
+#nav li ul li a:hover, #nav li ul li:hover > a {
+	text-decoration: none;
+	color: #000;
+	background: #f0f0f0;
+}
+#nav li ul {
+	position: absolute;
+	left: 0;
+	top: 55px;
+	width: 220px;
+	background: #fff;
+	padding: 0;
+	display: none;
+	list-style: none;
+	z-index: 9999;
+}
+#nav li:hover > ul {
+	display: block;
+}
+#nav li ul li > ul {
+	position: absolute;
+	left: inherit;
+	right: 100%;
+	top: 0;
+	width: 220px;
+	padding: 0;
+}
+#nav li ul li {
+	padding: 0;
+	float: none;
+	width: auto;
+	background: none;
+}
+#nav li ul li a {
+	background: none;
+	font: 400 14px/14px 'Roboto', sans-serif;
+	color: #000;
+	text-align: left;
+	padding: 15px 0 15px 20px;
+	display: block;
+}
+#nav li ul li a:before, #nav li ul li a:after {
+	display: none;
+}
+/* Menu CSS End */
+
+.banner-outer {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100vh;
+	background: #A020F0;
+}
+.banner-outer .caption {
+	position: absolute;
+	left: 0;
+	top: 45px;
+	width: 100%;
+	z-index: 999;
+}
+.banner-outer .caption .holder {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.banner-outer .caption .holder h1 {
+	text-align: center;
+	font: 700 46px/46px 'Roboto', sans-serif;
+	color: #fff;
+	margin: 0 0 30px 0;
+}
+.banner-outer .caption .holder form {
+	float: left;
+	width: 100%;
+	padding: 30px 0;
+	margin: 0 0 20px 0;
+	}
+
+.banner-outer .caption .holder form input[type="text"] {
+	float: left;
+	width: 100%;
+	background: #fff;
+	border: 0;
+	padding: 0 20px;
+	height: 45px;
+	font: 400 14px 'Roboto', sans-serif;
+	color: #777;
+}
+ .banner-outer .caption .holder form input::-webkit-input-placeholder {
+ color:#777;
+ opacity:1;
+}
+ .banner-outer .caption .holder form input:-moz-placeholder {
+ color:#777;
+ opacity:1;
+}
+ .banner-outer .caption .holder form input::-moz-placeholder {
+ color:#777;
+ opacity:1;
+}
+ .banner-outer .caption .holder form input:-ms-input-placeholder {
+ color:#777;
+ opacity:1;
+}
+.banner-outer .caption .holder form button[type="submit"] {
+	float: left;
+	width: 100%;
+	height: 45px;
+	border: 0;
+	background: #fff;
+	font-size: 18px;
+}
+.banner-outer .caption .holder form button[type="submit"]:hover {
+	color: #fff;
+}
+.banner-outer .caption .holder .btn-row {
+	float: left;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.banner-outer .caption .holder .btn-row a {
+	display: inline-block;
+	background: #fff;
+	padding: 20px 64px;
+	margin: 0 10px;
+	font: 900 14px/14px 'Roboto', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 11;
+	text-decoration: none;
+	overflow: hidden;
+	color: purple;
+}
+
+.user-option-col {
+	position: static;
+	right: 50px;
+	top: 20px;
+	padding: 0 10px;
+}
+.user-option-col .thumb {
+	width: 44px;
+	height: 44px;
+	border-radius: 100%;
+	float: right;
+	margin: 0 0 0 20px;
+}
+.user-option-col .thumb .dropup, .user-option-col .thumb .dropdown {
+	float: left;
+}
+.user-option-col .thumb .btn {
+	border: 0;
+	border-radius: 0;
+	font-size: inherit;
+	line-height: inherit;
+	padding: 0;
+}
+.user-option-col .thumb .btn-default:hover {
+	background-color: transparent;
+	border-color: transparent;
+	color: inherit;
+}
+.user-option-col .thumb .btn-default:focus, .user-option-col .thumb .btn-default.focus {
+	background-color: transparent;
+	border-color: transparent;
+	color: inherit;
+}
+.user-option-col .thumb .btn-default:active:hover,
+.user-option-col .thumb .btn-default.active:hover, .user-option-col .thumb .open > .dropdown-toggle.btn-default:hover,
+.user-option-col .thumb .btn-default:active:focus,
+.user-option-col .thumb .btn-default.active:focus,
+.user-option-col .thumb .open > .dropdown-toggle.btn-default:focus,
+.user-option-col .thumb .btn-default.focus:active,
+.user-option-col .thumb .btn-default.active.focus,
+.user-option-col .thumb .open > .dropdown-toggle.btn.default.focus {
+	background-color: transparent;
+	border-color: transparent;
+	color: inherit;
+}
+.user-option-col .thumb .dropdown-menu {
+	border: 0;
+	border-radius: 0;
+	font-size: inherit;
+	left: inherit;
+	right: 0;
+	list-style: outside none none;
+	margin: 0;
+	min-width: 153px;
+	padding: 0;
+	top: 72px;
+	z-index: 1000;
+}
+
+.user-option-col .thumb .dropdown-menu li {
+	padding: 0;
+	display: block;
+	overflow: hidden;
+}
+.user-option-col .thumb .dropdown-menu > li > a {
+	font: 400 14px/14px 'Roboto', sans-serif;
+	color: #000;
+	padding: 13px 0 13px 20px;
+}
+.user-option-col .thumb .dropdown-menu > li > a:hover {
+	background: #f0f0f0;
+	color: #000;
+}
+/*HEADER END*/
+.about {
+	float: left;
+	width: 100%;
+	background: #f2f3f5;
+	padding: 60px 0 30px 0;
+}
+.about h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.about h3 {
+	text-align: center;
+}
+.about span{
+color: #A020F0;
+}
+.about .box {
+	float: left;
+	width: 100%;
+	background: #fff;
+	color: #000;
+	padding: 30px 0;
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+.about .box h4 {
+	margin: 0 0 20px 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+
+.job-search .row{
+padding: 50px 0;
+}
+.job-search input{
+padding: 10px 0;
+}
+.job-search button{
+padding: 10px 0;
+}
+.popular-categories {
+	float: left;
+	width: 100%;
+	background: #f2f3f5;
+	padding: 60px 0 30px 0;
+}
+.popular-categories h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.popular-categories .box {
+	float: left;
+	width: 100%;
+	background: #fff;
+	color: #000;
+	padding: 30px 0;
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+.about .box {
+	float: left;
+	width: 100%;
+	background: #fff;
+	color: #000;
+	padding: 30px 0;
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+.clearfix {
+	padding-bottom: 19px;
+}
+.popular-categories .box h4 {
+	margin: 0 0 20px 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+.popular-categories .box:hover a {
+	color:#A020F0;
+}
+
+.recent-row {
+	float: left;
+	width: 100%;
+	background: #f2f3f5;
+}
+#content-area h2{
+	float: left;
+	margin: 0;
+}
+#content-area {
+	float: left;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+#content-area .box {
+	float: left;
+	width: 100%;
+	background: #fff;
+	border-radius: 3px;
+	padding: 20px;
+	margin: 0 0 8px 0;
+}
+#content-area .box h4{
+	font-size: 20px;
+}
+#content-area .box:hover h4 a{
+	color: #A020F0;
+}
+#content-area .box .thumb {
+	float: left;
+	margin: 0 20px 0 0;
+}
+#content-area .box .text-col {
+	float: left;
+	width: 77%;
+}
+#content-area .box .text-col .hold {
+	float: left;
+	width: 375px;
+}
+#content-area .box .text-col .hold p {
+	color: #222;
+	line-height: 22px;
+}
+#content-area .box .text-col h4 {
+	margin: 0 0 10px 0;
+}
+#content-area .box .text-col p {
+	font: 400 16px/16px 'Roboto', sans-serif;
+	color: #000;
+}
+#content-area .box .text-col p em {
+	font-weight: 400;
+	padding: 0 0 0 7px;
+}
+#content-area .box .text-col a.text {
+	font: 400 15px/15px 'Roboto', sans-serif;
+	color: #000;
+	text-decoration: none;
+	float: left;
+	padding: 0 20px 0 0;
+}
+#content-area .box .text-col a.text .fa {
+	padding: 0 6px 0 0;
+}
+#content-area .box strong.price {
+	font: 700 18px/18px 'Roboto', sans-serif;
+	color: #222;
+	float: left;
+	padding: 24px 0 0 0;
+}
+.job-detail #content-area .box strong.price {
+	padding: 10px 0 0 0;
+	display: block;
+	clear: both;
+}
+
+#content-area .box strong.price1 {
+	font: 700 18px/18px 'Roboto', sans-serif;
+	color: #222;
+	float: left;
+	padding: 24px 0 0 0;
+}
+.job-detail #content-area .box strong.price1 {
+	padding: 10px 0 0 0;
+	display: block;
+	clear: both;
+}
+
+.job-detail .clearfix {
+	float: left;
+	width: 100%;
+	padding: 15px 0 0 0;
+}
+.job-detail h4 {
+	margin: 40px 0 10px 0;
+}
+.index .job-detail #content-area ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.job-detail ul li {
+	padding: 0 0 30px 20px;
+	overflow: hidden;
+	display: block;
+	font: 400 14px/18px 'Roboto', sans-serif;
+	color: #000;
+	position: relative;
+}
+#content-area .box strong.price .fa {
+	padding: 0 8px 0 0;
+	font-size: 16px;
+}
+#myList li {
+	display: none;
+}
+
+/**************************************************INNER BANNER START**************************************************/
+
+#inner-banner {
+	float: left;
+	width: 100%;
+	padding: 37px 0;
+	text-align: center;
+}
+
+/*************************************************SIGNUP SECTION START*************************************************/
+
+.signup-section {
+	float: left;
+	width: 100%;
+	padding: 10px 0 60px 0;
+	text-align: center;
+}
+.signup-section .holder {
+	width: 420px;
+	margin: 0 auto;
+	display: inline-block;
+	padding: 79px 30px 30px 30px;
+	position: relative;
+}
+.input-box {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.signup-section .holder input[type="text"] {
+	float: left;
+	width: 100%;
+	height: 45px;
+	border: 1px solid #000;
+	font: 400 14px/14px 'Roboto', sans-serif;
+	color: #000;
+	padding: 0 10px 0 55px;
+	margin: 0 0 20px 0;
+	border-radius: 3px;
+}
+.signup-section .holder input[type="password"] {
+	float: left;
+	width: 100%;
+	height: 45px;
+	border: 1px solid #000;
+	font: 400 14px/14px 'Roboto', sans-serif;
+	color: #000;
+	padding: 0 10px 0 55px;
+	margin: 0 0 20px 0;
+	border-radius: 3px;
+}
+ .signup-section .holder input::-webkit-input-placeholder {
+ color:#000;
+ opacity:1;
+}
+ .signup-section .holder input:-moz-placeholder {
+ color:#000;
+ opacity:1;
+}
+ .signup-section .holder input::-moz-placeholder {
+ color:#000;
+ opacity:1;
+}
+ .signup-section .holder input:-ms-input-placeholder {
+ color:#000;
+ opacity:1;
+}
+.select-box {
+	float: left;
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+.selector {
+	min-width: 60px;
+	position: relative;
+	border: 1px solid #000;
+	border-radius: 3px;
+	height: 45px;
+	font: 400 14px/40px 'Roboto', sans-serif;
+	color: #000;
+	padding: 5px 0 0 0;
+}
+.selector select {
+	line-height: 30px;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	border: 1px solid #000;
+	font: 400 14px/40px 'Roboto', sans-serif;
+	color: #000;
+	height: 45px;
+	padding: 0;
+}
+select {
+	height: 34px;
+	padding: 8px 0 8px 8px;
+}
+input.input-text, select, textarea, span.custom-select {
+	border: 1px solid #000;
+	font: 400 14px/40px 'Roboto', sans-serif;
+	color: #000;
+	border: medium none;
+	line-height: normal;
+	height: 45px;
+}
+select option {
+	padding: 2px 10px;
+}
+.selector span.custom-select {
+	display: inline-block;
+	line-height: 32px;
+	text-align: left;
+	overflow: hidden;
+	padding: 0 10px;
+	position: relative;
+	white-space: nowrap;
+	width: 100%;
+}
+.outtaHere {
+	position: absolute;
+	left: -3000px;
+}
+.signup-section .holder input[type="submit"] {
+	float: right;
+	padding: 12px 30px;
+	font: 900 14px/14px 'Roboto', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	border: 0;
+}
+.upload-box {
+	float: left;
+	width: 100%;
+	margin: 0 0 30px 0;
+}
+.upload-box .hold {
+	float: left;
+	width: 100%;
+	position: relative;
+	border: 1px solid #000;
+	border-radius: 3px;
+	padding: 4px;
+}
+.upload-box .hold a {
+	font: 400 14px/36px 'Roboto', sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+.upload-box .btn-file {
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding: 12px 20px;
+	font: 900 14px/14px 'Roboto', sans-serif;
+	color: #fff;
+	margin: 0 10px 0 0;
+	text-transform: uppercase;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.upload-box .btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	opacity: 0;
+	outline: none;
+	background: #fff;
+	cursor: inherit;
+	display: block;
+}
+.upload-box .icon-icons-08 {
+	padding: 0 5px 0 0;
+}
+.upload-row {
+	float: left;
+	width: 100%;
+}
+.upload-row strong {
+	display: block;
+	font: 400 14px/14px 'Roboto', sans-serif;
+	color: #000;
+	padding: 0 0 0 63px;
+}
+.signup-section .holder em {
+	display: block;
+	text-align: center;
+	font: italic 400 14px/14px 'Roboto', sans-serif;
+	clear: both;
+}
+.signup-section .holder em a {
+	text-decoration: none;
+}
+.signup-section .holder a.login {
+	font: 400 14px/14px 'Roboto', sans-serif;
+	float: right;
+	padding: 20px 0;
+}
+.signup-section .holder b {
+	padding: 12px 20px;
+	display: table;
+	margin: 0 auto 35px;
+	font: 900 14px/14px 'Roboto', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 3px;
+	clear: both;
+	position: relative;
+}
+.signup-section .holder b:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: -5px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 4.5px 0 4.5px;
+	border-color: #A020F0 transparent transparent transparent;
+}
+.login-social {
+	float: left;
+	width: 100%;
+}
+.login-social h4 {
+	text-align: center;
+	margin: 0 0 24px 0;
+}
+.login-social ul {
+	padding: 0 0 20px 0;
+	margin: 0;
+	list-style: none;
+}
+.login-social ul li {
+	display: block;
+	padding: 0 0 10px 0;
+	overflow: hidden;
+}
+.login-social ul li a.fb {
+	background: #A020F0;
+	float: left;
+	width: 100%;
+	height: 41px;
+	border-radius: 3px;
+	font: 400 15px/39px 'Roboto', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+.login-social ul li a .fa {
+	font-size: 20px;
+	color: #fff;
+	width: 50px;
+	height: 41px;
+	text-align: center;
+	line-height: 40px;
+	border-right: 1px solid #fff;
+	margin: 0 20px 0 0;
+}
+.login-social ul li a.gp {
+	background: #A020F0;
+	float: left;
+	width: 100%;
+	height: 41px;
+	border-radius: 3px;
+	font: 400 15px/39px 'Roboto', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+.login-social ul li a.tw {
+	background: #A020F0;
+	float: left;
+	width: 100%;
+	height: 41px;
+	border-radius: 3px;
+	font: 400 15px/39px 'Roboto', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+
+.resumes-section {
+	float: left;
+	width: 100%;
+	background: #fff;
+}
+.resumes-content {
+	float: left;
+	width: 100%;
+}
+.resumes-content #loadMore {
+	padding: 30px 0 0 0;
+	overflow: hidden;
+	clear: both;
+}
+.resumes-content .box {
+	float: left;
+	width: 100%;
+	padding: 30px;
+	margin: 0 0 10px 0;
+	background: #fff;
+}
+.resumes-content .box .frame {
+	float: left;
+	margin: 0 30px 0 0;
+}
+.resumes-content .box .text-box {
+	overflow: hidden;
+}
+.resumes-content .box .text-box h2 {
+	margin: 0 0 12px 0;
+}
+.resumes-content .box .text-box h4 {
+	margin: 0 0 15px 0;
+}
+.resumes-content .box .text-box strong {
+	float: left;
+	font: 400 13px/13px 'Roboto', sans-serif;
+	color: #000;
+	padding: 0 20px 0 0;
+}
+.resumes-content .box .text-box strong .fa {
+	padding: 0 6px 0 0;
+}
+.resumes-content .box .text-box strong a {
+	color: #000;
+}
+.resumes-content .box .text-box strong a:hover {
+	color: #A020F0;
+	text-decoration: none;
+}
+.resumes-content .box .text-box span.price {
+	display: block;
+	font: 700 18px/18px 'Roboto', sans-serif;
+	color: #000;
+	padding: 0 0 15px 0;
+}
+.resumes-content .box .text-box .clearfix {
+	padding: 0 0 15px 0;
+}
+.resumes-content .box .text-box span.price .fa {
+	padding: 0 6px 0 0;
+}
+.tags {
+	float: left;
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+.tags a {
+	font: 400 15px/15px 'Roboto', sans-serif;
+	float: left;
+	padding: 0 2px;
+	text-decoration: none;
+}
+.tags a .fa {
+	padding: 0 6px 0 0;
+}
+.tags a:hover {
+	color: #A020F0;
+}
+.btn-row {
+	float: left;
+	width: 100%;
+}
+.btn-row a.resume {
+	float: left;
+	padding: 9px 30px;
+	font: 900 14px/14px 'Roboto', sans-serif;
+	color: #fff;
+	border-radius: 3px;
+	margin: 0 20px 0 0;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn-row a.resume .fa {
+	padding: 0 10px 0 0;
+	font-size: 16px;
+}
+.btn-row a.contact {
+	float: left;
+	padding: 10px 20px;
+	background: #8bc34a;
+	font: 900 14px/14px 'Roboto', sans-serif;
+	color: #fff;
+	border-radius: 3px;
+	margin: 0 20px 0 0;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn-row a.login {
+	float: left;
+	padding: 10px 20px;
+	font: 900 14px/14px 'Roboto', sans-serif;
+	color: #fff;
+	border-radius: 3px;
+	margin: 20px 20px 0 0;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.check-filter {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+/*RESUME FORM START*/
+.resum-form {
+	float: left;
+	width: 100%;
+	background: #fff;
+}
+.resum-form label {
+	font: 500 18px/18px 'Roboto', sans-serif;
+	color: #000;
+	display: block;
+	margin: 0 0 10px 0;
+}
+.resum-form h4 {
+	margin: 0 0 10px 0;
+}
+.resum-form input[type="text"] {
+	float: left;
+	width: 100%;
+	height: 43px;
+	padding: 0 20px;
+	margin: 0 0 28px 0;
+	font: 400 14px/14px 'Roboto', sans-serif;
+	color: #000;
+}
+.resum-form input[type="email"] {
+	float: left;
+	width: 100%;
+	height: 43px;
+	border: 1px solid #000;
+	padding: 0 20px;
+	margin: 0 0 28px 0;
+	font: 400 14px/14px 'Roboto', sans-serif;
+	color: #000;
+}
+.resum-form input[type="password"] {
+	float: left;
+	width: 100%;
+	height: 43px;
+	border: 1px solid #000;
+	padding: 0 20px;
+	margin: 0 0 28px 0;
+	font: 400 14px/14px 'Roboto', sans-serif;
+	color: #000;
+}
+.resum-form input[type="url"] {
+	float: left;
+	width: 100%;
+	height: 43px;
+	border: 1px solid #000;
+	padding: 0 20px;
+	margin: 0 0 28px 0;
+	font: 400 14px/14px 'Roboto', sans-serif;
+	color: #000;
+}
+.resum-form .upload-box .btn-file {
+	float: right;
+	margin: 0;
+}
+.resum-form .upload-box .hold a {
+	padding: 0 0 0 20px;
+}
+.resum-form textarea {
+	float: left;
+	width: 100%;
+	height: 113px;
+	border: 1px solid #000;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	margin: 0 0 28px 0;
+	resize: none;
+	font: 400 14px/14px 'Roboto', sans-serif;
+	color: #000;
+}
+.resum-form .btn-col {
+	float: left;
+	width: 100%;
+}
+.resum-form input[type="submit"] {
+	float: left;
+	padding: 20px 52px;
+	margin: 0;
+	font: 900 14px/14px 'Roboto', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	border: 0;
+}
+.text-editor-box {
+	float: left;
+	width: 100%;
+	margin: 0 0 28px 0;
+}
+.resum-form .selector {
+	margin: 0 0 28px 0;
+}
+
+.FONTS {
+	font-family: 'Roboto', sans-serif;
+}
+.padd-tb {
+	padding: 30px 0;
+}
+.padd-top {
+	padding: 60px 0 0 0;
+}
+.padd-btm {
+	padding: 0 0 60px 0;
+}
+.footer-top{
+	background-color: #A020F0;
+}
+.newsletter-form{
+	padding: 20px 300px;
+}
+.newsletter-form .form-group{
+	padding: 10px 30px;
+}
+/*************************************BACKGROUND COLOR START*************************************/
+
+#banner, .banner-outer .caption .holder form button[type="submit"]:hover, .browse-job-section, .user-option-col a.login-round, .user-option-col .dropdown-menu > li > a:hover, .user-option-col .dropdown-menu > li > a:focus, .user-option-col a.btn-login, .btn-color-2, .sidebar .box .text-box a.btn-apply, .call-action-section, .price-table .box strong.amount:before, .price-table .box strong.amount:after, #footer form input[type="submit"], #cp_side-menu, .banner-2, #wrapper .header-2.cp_sticky, .process-section .icon-box, .btn-bg-color-1, .header-4, #inner-banner, .pagination-box .pager li > a:hover, .pagination-box .pager li > a:focus, .pagination-box .pager li.active a, .post-box .owl-next:hover, .post-box .owl-prev:hover, .post-section .comment-form form input[type="submit"], .signup-section .holder input[type="submit"], .upload-box .btn-file, .signup-section .holder b, .contact-form input[type="Submit"], .address-box address .fa, .candidates-search-bar form, .btn-row a.login, .summary-box  .col:before, .progress-box .progress-bar span, .alphabets-row .col span, .alphabets-row .col:before, .icon-colo-1, .resum-form .accordion_cp, .resum-form input[type="submit"], .navbar-toggle {
+	background-color:#A020F0;
+}
+
+/*************************************TEXT COLOR START*************************************/
+
+#nav li:hover > a, .banner-outer .caption .holder form button[type="submit"], .banner-outer .caption .holder .btn-row a .fa, .cp_side-menu a .fa, .user-option-col a .fa, .sidebar .box .text-box h4 a, .sidebar .box .text-box a.text .fa, .sidebar .box .text-box strong.price .fa, .price-table .box h4, .price-table .box strong.amount sub, .testimonials-section .owl-prev:hover:before, .testimonials-section .owl-next:hover:before, .post-box .text-box strong.date .fa, .post-box .text-box strong.name, .post-box .text-box:hover h4 a, #footer .box ul li a, .bottom-row strong.copyrights a:hover, #popular-job-slider .owl-next:before, #popular-job-slider .owl-prev:before, .sidebar-jobs ul li a, .sidebar-jobs ul li span .fa, .pagination-box .pager li > a, .pagination-box .pager li > span, .sidebar .box .recent-post .text-box a .fa, .sidebar .box .recent-post .text-area a .fa, .sidebar .box .recent-post ul li:hover strong a, .sidebar .box .archives-box ul li a:hover, .post-box blockquote p, .testimonials-style-3 .box p, .testimonials-style-3 .col p, .input-box .fa, .check-box strong a:hover, .signup-section .holder em, .signup-section .holder em a, .signup-section .holder a.login, .candidates-search-bar form button[type="submit"], .resumes-content .box .text-box strong .fa, .resumes-content .box .text-box span.price .fa, .tags a, .related-people .text-box strong.name a, .related-people .text-box span .fa, .summary-box strong.title, .popular-companies .owl-next:before, .popular-companies .owl-prev:before, .alphabets-row a:hover, .alphabets a:hover, .job-detail ul li .fa{
+	color:#A020F0;
+}
+
+.signup-section .holder span:before{
+	border-color: #A020F0 transparent transparent transparent;
+}
+.progress-box .progress-bar span:before{
+	border-color: transparent #A020F0 transparent transparent;
+}
